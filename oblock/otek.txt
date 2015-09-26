@@ -1,0 +1,5 @@
+[Adblock Plus 2.0]
+! Title: otek
+
+! Obsolete. otek is now part of main oblock list. Please delete otek subscription.
+ 

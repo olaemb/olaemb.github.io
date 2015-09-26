@@ -1,0 +1,19 @@
+A {
+ text-decoration: underline;
+}
+A:hover {
+ background-color: yellow;
+ color: black;
+ text-decoration:none;
+ border-top:1px solid black;
+ border-bottom:1px solid black;
+}
+html, body { 
+ margin: 0px; 
+ position: absolute; 
+ top: 0px; 
+ left: 0px; 
+ bottom: 0px; 
+ right: 0px;
+ padding: 0px;
+}

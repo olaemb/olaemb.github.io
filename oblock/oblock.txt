@@ -1,0 +1,295 @@
+[Adblock Plus 2.0]
+! Title: oblock
+! Homepage: http://oblock.ignorelist.com/oblock.txt
+! Version: 201509261542
+
+! 101greatgoals.com
+||vds.rightster.com^$domain=101greatgoals.com|empireofthekop.com
+||spot.im^$domain=101greatgoals.com
+101greatgoals.com###text-33
+101greatgoals.com###top10-betting
+101greatgoals.com##.promo-box
+
+! aftenposten.no
+! Note several exceptions under VG that also cover this domain.
+||godetilbud.aftenposten.no
+||ocacache.medianorge.no/*jobcarousel
+||ocacache.medianorge.no/oca/s/realestate.htm
+aftenposten.no,osloby.no##.ad
+aftenposten.no,osloby.no##.df-ad-marker
+aftenposten.no,osloby.no##.flyout
+
+! dagbladet.no
+dagbladet.no,kjendis.no,pressfire.no##A[href*="/pluss/"]
+dagbladet.no,kjendis.no,pressfire.no##.native-advertisement
+dagbladet.no,kjendis.no,pressfire.no##.pluss
+dagbladet.no,kjendis.no,pressfire.no##.plussArticle
+dagbladet.no,kjendis.no,pressfire.no##.plussEmblem
+dagbladet.no,kjendis.no,pressfire.no##.plussRef
+
+! demonoid.ooo
+@@||demonoid.ooo/advertiser.js
+||chatango.com^$domain=demonoid.ooo
+demonoid.ooo###bnr3
+
+! dailymail.co.uk
+dailymail.co.uk###dms-txt
+dailymail.co.uk##.share-pictures-overlay
+
+! digi.no, tu.no
+digi.no,tu.no###job-rotator-wide
+digi.no,tu.no###linkedin-facebook-share-bar
+digi.no,tu.no##.ad-desc
+digi.no,tu.no##.tuSharing
+||cdn.tu.no/whitepapers/article.html
+
+! extratorrent.cc
+||static.extratorrent.cc/images/other/torn2.png
+||static.extratorrent.cc/images/green_arrow.png
+
+! eztv.ch
+eztv.ch,eztv.it,eztv-proxy.net##.gsf
+eztv.ch,eztv.it,eztv-proxy.net##.gsfl
+eztv.ch,eztv.it,eztv-proxy.net##span[style="color: #666;"]
+eztv.ch,eztv.it,eztv-proxy.net##[href*="http://imads.integral-marketing.com/"]
+||eztv.ch/js/cimg.css
+||eztv.ch/js/img.js
+||eztv.ch/js/jsc.js
+||eztv.ch/cdn-cgi^
+||ajax.cloudflare.com/cdn-cgi^$domain=eztv.ch|eztv.it
+
+! generalfil.es
+generalfil.es###banner-fileinfo-middle
+generalfil.es###search-banner-top
+
+! givemesport.com
+||video.givemesport.com
+www.givemesport.com##.video-container
+www.givemesport.com###editorial-syndication
+www.givemesport.com###slide-promo
+
+! itavisen.no
+itavisen.no###stillingsticker
+itavisen.no##.adsense-area
+itavisen.no##.advertisement
+itavisen.no##.widget-stillingsticker
+itavisen.no##.widget-textlinks
+
+! kingofsat.net - Fanboy's Annoyances blocks /rss.gif for some reason. Example: http://en.kingofsat.net/news.php
+@@/rss.gif
+
+! liverpool.no
+||kopshop.no/*banner.asp$third-party
+||performgroup.com/*/install_flash.gif$third-party
+||yr.no/sted/Storbritannia/England/Anfield/ekstern_boks_liten$third-party
+liverpool.no###ToppBanner
+liverpool.no###RightBanner
+liverpool.no###youtubeVideos
+
+! meetv.no
+||meetv.no/static/images/tviller_banner.png
+meetv.no###sms_banner_1
+meetv.no###sms_banner_2
+meetv.no##.sms-banner
+
+! nettavisen.no - exception to avoid triggering anti-adblock message.
+@@||nettavisen.no/templates/v1/resources/advertisement-1.js
+
+! newsnow.co.uk
+newsnow.co.uk##.dy_cld
+newsnow.co.uk##.nndec_hl_wrap
+newsnow.co.uk##.nndec_hl_wrap_one
+newsnow.co.uk##.nnpopup
+
+! prisguide.no
+prisguide.no###ads-global
+prisguide.no##.pg-ad-label
+
+! rarbg.to
+||dyncdn.me/static/20/img/16x16/download_direct.png
+||dyncdn.me/static/20/img/aff/piv3_opt.png
+||dyncdn.me/static/20//img/cr.png
+||dyncdn.me/static/20/web_rotator_1.gif
+rarbg.to,rarbg.com##[href*="adpub.php"]
+rarbg.to,rarbg.com##A[href*="/musik.php?id="]
+rarbg.to,rarbg.com##A[href*="/totaldeal.php?id="]
+rarbg.to,rarbg.com##A[onclick*="myfastfile.com"]
+
+! sbnation.com
+sbnation.com###social-promo
+sbnation.com##.m-share_selection_contextual
+
+! tek.no - exceptions to avoid triggering anti-adblock dialog.
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-loaded
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-placeholder
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-place-holder
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-post
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-poster
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-primary
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no#@#.ad-sticky
+@@||static.tek.no/3rdparty/adtech-DAC$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+@@||static.tek.no/js/ads.js^$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+@@||adtechus.com/dt/common/DAC$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+@@||adtech.de/dt/common/DAC$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+@@||adtech.de/multiad^$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+@@||track.adform.net/adfscript^$domain=tek.no|gamer.no|teknofil.no|teknojobb.no|insidetelecom.no
+! tek.no - hide more elements that don't need to be visible.
+tek.no,gamer.no,teknofil.no,teknojobb.no##.access-subscription
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.annonse
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.discount-promo-message
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.feed-tu-jobs
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.jobs-300
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.subscription-feed
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.subscription-feed-top
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.tek-jobs
+tek.no,gamer.no,teknofil.no,teknojobb.no,insidetelecom.no##.top-header
+! tek.no - I also apply this via the usercss extension to hide whitespace and ad-markers. Must have height above 10px to avoid triggering anti-adblock:
+!
+! /* tek.no
+! Remember, any changes made here should also be made for other tek.no domains. */
+!
+!.surround .ad-placeholder
+!{
+!	height: 11px !important;
+!  visibility: hidden !important;
+!}
+
+! thepiratebay.*
+||0427d7.se^$third-party
+||adbrau.com^$third-party
+||thepiratebay.*/ads/
+||thepiratebay.*/static/ads/
+
+! tv2.no
+tv2.no##.adContainer
+tv2.no##.ad-dz
+
+! twitter.com - Hiding the tweet field on top of the timeline that is easily confused with a search field.
+!twitter.com##.DashboardProfileCard
+twitter.com##.is-promoted
+twitter.com##.timeline-tweet-box
+
+! vg.no, vgtv.no, e24.no, minmote.no -  PS. Third-party cookies must be allowed to play videos embedded in articles (does not apply to pages on vgtv.no domain).
+! These blocks are useless for www.vg.no and e24.no now after EasyList annoyingly started applying an elemhide exception rule to these domains. Use oblock.css in Stylish addon instead.
+vg.no##.ad
+vg.no##.df-container-skin-cm-norsktipping
+vg.no##.dablock-popup
+vg.no##.dablock-popup-overlay
+vg.no##.wid-betting
+e24.no###job-widget
+! vg.no - Using www subdomain for pluss stuff so pluss.vg.no is unaffected for subscribers.
+! These blocks are useless for www.vg.no and e24.no now after EasyList annoyingly started applying an elemhide exception rule to these domains. Use oblock.css in Stylish addon instead.
+www.vg.no###pluss-teaser
+www.vg.no##.df-img-skin-pluss
+www.vg.no##[href*="http://pluss.vg.no/"]
+www.vg.no##.vgpluss-full
+! No elemhide in Easylist for minmote.no and vgtv.no, so these should still work. 
+minmote.no##.ad-box
+vgtv.no##.horseshoe-wrapper
+! e24.no - iframes
+||dinepenger.no/embed
+||e24.no/betalt-innhold/
+! vg.no - Commenting these out by default since they may be considered useful services, rather than ads.
+!||vgc.no/front/services.html
+!||vgc.no/pengerno/vg.html
+! vg.no - This exception enables godt.no iframe. Again, it may be considered useful, also it will just produce whitespace if it's hidden.
+!vg.no,godt.no#@#.ad-enabled
+! vg.no - Exceptions to avoid anti-adblock message.
+@@||adtech.de/multiad^$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||adtech.de/dt/common/DAC$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||adtechus.com/dt/common/DAC$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||track.adform.net/adfserve^$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||helios.vg.no/multiad^$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||helios.finn.no/multiad^$domain=vg.no|vgtv.no|e24.no|minmote.no|aftenposten.no|bt.no
+@@||vg.tns-cs.net
+@@||vg.no
+@@||e24.no
+! These exceptions are useless for vg.no and e24.no now after EasyList annoyingly started applying an elemhide exception rule to these domains.
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-loaded
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-padding
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-placeholder
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-place-holder
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-post
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-poster
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-primary
+vg.no,vgtv.no,e24.no,minmote.no#@#.ad-wrapper
+! vgtv.no -  Exceptions needed to play vgtv.no videos with third-party cookies blocked. Does not work for videos embedded in vg.no articles, so must allow TP-cookies to play those.
+! I'm unblocking them for all domains as I don't think it will hurt and may allow videos to play without having to allow third-party cookies on some other sites.
+!@@videoplaza.tv/crossdomain.xml
+@@videoplaza.tv/proxy/*player
+!@@videoplaza.tv/resources
+
+! Ad servers
+||cdn.rikstoto.no^$third-party
+||outbrain.com^$third-party
+||qmerce.com^$third-party
+||static.eplayer.performgroup.com^$third-party
+||taboola.com^$third-party
+||tippebannere.no^$third-party
+||tools.bongacams.com^$third-party
+||widgets.sprinklecontent.com^$third-party
+||xiuuh.com^$third-party
+
+! Football forums
+glory-glory.co.uk,grandoldteam.com##.adblock_detector
+glory-glory.co.uk,grandoldteam.com###GritterContainer
+||sport-video.org.ua/images/Affilate
+||sport-video.org.ua/images/all_ban_
+villatalk.com###vt_adb_announcement
+
+! Football streaming sites
+vipbox.biz,gutatv.biz,vabostream.ru,streams.tv###bannerInCenter
+vipbox.biz,gutatv.biz,vabostream.ru,streams.tv###floatLayer1
+vipbox.biz,gutatv.biz,vabostream.ru,streams.tv###hiddenBannerCanvas
+vipbox.biz,gutatv.biz,vabostream.ru,streams.tv###over-large
+vipbox.biz,gutatv.biz,vabostream.ru,streams.tv###over-small
+firstrowne.eu,04stream.com###fanback
+firstrowne.eu,04stream.com###otclosediv
+@@||firstrowne.eu/sport/advertisement.js
+
+! Various (try to keep only single element per domain stuff here)
+||are-ter.com^$third-party
+@@||binbox.io^$elemhide
+bleacherreport.com###social-promo-flyin
+dailystar.co.uk,express.co.uk##.BrightcoveExperience
+d-h.st###downloadfile2
+forums.openpli.org##div[style^="margin 0 auto;display:inline-block;width:728px; height:84px; border:1px solid #000000;"]
+glomdalen.no,ostlendingen.no##.am-adContainer--labeled
+||static.goal.com/di/1C2477EA1B3DEC10A927CBFF369B53C2.gif
+@@||hostyd.com^advertisement.js
+kk.no##.advertisement
+independent.co.uk##.bellyBand
+nifs.no##.sms_icon
+pastebin.com###abrpm
+pcmag.com##.zdcse-wrapper
+prisjakt.no,prisjakt.nu##.adbox
+quartermaester.info###banner
+||filmon.com/tv/channel/export?channel_id$domain=satandpcguy.com
+sportwitness.ning.com###hstp_373_interstitial
+tapiture.com###lurker-banner
+theclockend.com###hstp-bg4376-overlay
+theguardian.com##.selection-sharing
+
+! Social media like buttons and similar crap on third-party sites
+||apis.google.com/se/0/_/+1/$third-party
+||facebook.com/plugins/like$third-party
+||platform.twitter.com/widgets/tweet_button$third-party
+
+! Block all popups on the following domains:
+! |http:$image,~image,popup,third-party,domain=rarbg.to|rarbg.com
+! Source: https://adblockplus.org/blog/on-the-pop-up-blocker-in-adblock-plus#c004336
+! Also see: https://adblockplus.org/development-builds/experimental-pop-up-blocking-support
+! Commented out for now. Needs more testing.
+
+! Whitelisted domains.
+! Whitelisted to prevent breakage of some feature.
+! canon.no - Had issues with downloading printer drivers. Model would not show up after choosing printer category.
+@@||canon.no/$document
+! cdon.no - Some block prevented me from confirming purchase. Suspect it was due to a cloudfront hosted script blocked by EasyPrivacy, but might as well whitelist the domain.
+@@||cdon.no/$document
+! chess.no - Unable to choose SIM card type during signup with Adblock enabled. PS. Design may be changed now so not sure this exception is needed anymore.
+@@||chess.no/$document
+! dressmann.com - Adblock hides newsletter signup form. May want to just unblock that at some point.
+@@||dressmann.com/$document
+! xito.no - Unable to submit e-mail form to customer service with Adblock enabled.
+@@||xito.no/$document

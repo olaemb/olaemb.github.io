@@ -1,0 +1,37 @@
+@-moz-document domain("github.com"), domain("kat.cr"), domain("rarbg.com"), domain("rarbg.to") {
+/* Makes visited links teal to distinguish them from other links. */
+a:visited { color: rgb(88, 166, 167) !important; }
+}
+
+@-moz-document domain("tek.no"), domain("gamer.no"), domain("teknofil.no") {
+/* Hides ad/whitespace without triggering anti-adblock. Height must be above 10px and visibility: hidden must be used instead of display: none */
+.surround .ad-placeholder {
+	height: 11px !important;
+	visibility: hidden !important;
+}
+}
+
+@-moz-document domain("liverpool.no") {
+/* Hides top ad/whitespace and fixes strange kopvote stylesheet for webkit browsers where radiobuttons would show as checkboxes. */
+#global #wrapper #d1 { top: 4px !important; }
+#Content #kopVote .pds-radiobutton { -webkit-appearance: radio !important; }
+}
+
+@-moz-document domain("www.vg.no"), domain("e24.no") {
+/* Hides some ads and subscription-only articles that can be safely hidden without triggering anti-adblock.
+   This can no longer be done in Adblock because of this type of annoying elemhide exception in EasyList:
+      @@||www.vg.no^$elemhide
+      @@||e24.no^$elemhide
+   This prevents all element hiding rules from working. I don't know how to create an exception for that exception in a blocklist.
+   In fact, I don't think it's even possible. So we just apply this css post-adblock instead to achieve the same effect.
+*/
+.ad,
+.df-container-skin-cm-norsktipping,
+.df-img-skin-pluss,
+.vgpluss-full,
+.wid-betting,
+#job-widget,
+#pluss-teaser,
+[href*="http://pluss.vg.no/"]
+{ display: none !important; }
+}
